@@ -1,0 +1,125 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.List {
+  border: 1px solid rgb(218, 218, 218);
+  display: flex;
+  margin: 0 0 28px 0;
+}
+.List-color > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.List-color {
+  flex: 1 1 80px;
+  height: 80px;
+  margin: 0 0 28px 0;
+  position: relative;
+  width: 80px;
+}
+
+.List-color span {
+  text-align: center;
+}
+
+.List-color span + span {
+  font-size: 0.7777777778rem;
+  line-height: inherit;
+}
+
+.List-colorBkg {
+  height: 100%;
+}
+
+.List-color-text {
+  background-color: rgb(255, 255, 255);
+  bottom: -28px;
+  font-weight: 600;
+  padding: 4px 0;
+  position: absolute;
+  width: 100%;
+}
+
+.List-color-gray-100 {
+  background-color: rgb(250, 250, 250);
+}
+
+.List-color-hex-gray-100 {
+  color: rgb(61, 61, 61);
+}
+
+.List-color-gray-200 {
+  background-color: rgb(240, 240, 240);
+}
+
+.List-color-hex-gray-200 {
+  color: rgb(61, 61, 61);
+}
+
+.List-color-gray-300 {
+  background-color: rgb(218, 218, 218);
+}
+
+.List-color-hex-gray-300 {
+  color: rgb(61, 61, 61);
+}
+
+.List-color-gray-400 {
+  background-color: rgb(186, 186, 186);
+}
+
+.List-color-hex-gray-400 {
+  color: rgb(61, 61, 61);
+}
+
+.List-color-gray-500 {
+  background-color: rgb(153, 153, 153);
+}
+
+.List-color-hex-gray-500 {
+  color: rgb(61, 61, 61);
+}
+
+.List-color-gray-600 {
+  background-color: rgb(112, 112, 112);
+}
+
+.List-color-hex-gray-600 {
+  color: rgb(61, 61, 61);
+}
+
+.List-color-gray-600 {
+  background-color: rgb(112, 112, 112);
+}
+
+.List-color-hex-gray-600 {
+  color: rgb(240, 240, 240);
+}
+
+.List-color-gray-700 {
+  background-color: rgb(86, 86, 86);
+}
+
+.List-color-hex-gray-700 {
+  color: rgb(240, 240, 240);
+}
+
+.List-color-gray-800 {
+  background-color: rgb(61, 61, 61);
+}
+
+.List-color-hex-gray-800 {
+  color: rgb(240, 240, 240);
+}
+
+.List-color-gray-900 {
+  background-color: rgb(38, 38, 38);
+}
+
+.List-color-hex-gray-900 {
+  color: rgb(240, 240, 240);
+}
